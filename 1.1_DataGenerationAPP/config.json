@@ -1,0 +1,101 @@
+{
+  "Frequency": {
+    "Unit": "Hz",
+    "LowerLimit": 50,
+    "UpperLimit": 200,
+    "NumValues": 151
+  },
+  "trainset": {
+    "SourceRange": {
+      "Unit": "km",
+      "LowerLimit": 1,
+      "UpperLimit": 20,
+      "NumValues": 191
+    },
+    "SourceDepth": {
+      "Unit": "m",
+      "LowerLimit": 2,
+      "UpperLimit": 60,
+      "NumValues": 30
+    },
+    "SeaWater": {
+      "Unit": "m",
+      "LowerLimit": 90,
+      "UpperLimit": 110,
+      "NumValues": 5
+    },
+    "BathPw_Speed": {
+      "Unit": "m/s",
+      "LowerLimit": 1600,
+      "UpperLimit": 1800,
+      "NumValues": 3
+    },
+    "BathRho": {
+      "Unit": "g⁄cm^3",
+      "LowerLimit": 1.4,
+      "UpperLimit": 1.6,
+      "NumValues": 3
+    },
+    "BathPw_Atten": {
+      "Unit": "dB/λ",
+      "LowerLimit": 0.05,
+      "UpperLimit": 0.05,
+      "NumValues": 1
+    }
+  },
+  "testset": {
+    "SourceRange": {
+      "Unit": "km",
+      "LowerLimit": 0.9,
+      "UpperLimit": 20.1,
+      "NumValues": 9
+    },
+    "SourceDepth": {
+      "Unit": "m",
+      "LowerLimit": 11,
+      "UpperLimit": 55.1,
+      "NumValues": 2
+    },
+    "SeaWater": {
+      "Unit": "m",
+      "LowerLimit": 80.1,
+      "UpperLimit": 119.9,
+      "NumValues": 15
+    },
+    "BathPw_Speed": {
+      "Unit": "m/s",
+      "LowerLimit": 1511,
+      "UpperLimit": 1889,
+      "NumValues": 15
+    },
+    "BathRho": {
+      "Unit": "g⁄cm^3",
+      "LowerLimit": 1.2,
+      "UpperLimit": 1.8,
+      "NumValues": 6
+    },
+    "BathPw_Atten": {
+      "Unit": "dB⁄λ",
+      "LowerLimit": 0.05,
+      "UpperLimit": 0.05,
+      "NumValues": 1
+    }
+  },
+  "ReceiverDepth": [
+    1,
+    1,
+    2,
+    3,
+    5
+  ],
+  "SoundSpeedProfile": [
+    [
+      0,
+      1500
+    ],
+    [
+      2,
+      1500
+    ]
+  ]
+}

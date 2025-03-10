@@ -1,0 +1,30 @@
+python e:\2.0_UWSL_app\1.2_NeuralNetworksAPP\main_pyqt.py
+2025/02/03 19:00:06
+
+data_loader_path: E:/2.0_UWSL_Datasets/test
+length_freq: 151
+num_of_receiver: 6
+z_max: 60
+r_max: 20
+cpu: 1
+num_workers: 0
+rest_time: 5
+seed: 0
+num_of_sources: 32
+model: MTL-CNN
+batch_size: 32
+batch_size_v: 32
+batch_size_exp: 32
+mini_epoch: 1
+max_epoch: 1
+test_only: False
+plot_only: False
+exp_only: False
+load_model_path: .
+lr: 0.001
+save_file: .
+load: .
+resume: False
+f: Read additional parameters
+receiver_depth: 0
+
